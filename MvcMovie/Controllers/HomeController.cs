@@ -20,6 +20,7 @@ namespace MvcMovie.Controllers
 
         public IActionResult Privacy()
         {
+            //todo: check
             return View();
         }
 
