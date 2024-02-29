@@ -13,7 +13,7 @@ namespace MvcMovie.Data
             : base(options)
         {
         }
-
+        
         public DbSet<Movie> Movie { get; set; } = default!;
     }
 }
